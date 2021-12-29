@@ -87,3 +87,8 @@ typings/
 
 # Electron-Forge
 out/
+
+# some local media
+src/vids/marianela1955.mp4
+src/vids/inocentes1984.mp4
+src/timeline4.json
