@@ -7,7 +7,7 @@ Steps
 
 * Download this repository to your Desktop (or wherever you want)
 * unzip it
-* open your terminal/cmd and go: `cd ~/Desktop/chronokey``
+* open your terminal/cmd and go: `cd ~/Desktop/chronokey`
 * install dependencies: `npm install`
 * run chronokey: `npm start`
 * for building chronokey distributable: `npm run make`
