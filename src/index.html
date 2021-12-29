@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- TIMELINEJS -->
+    <link rel="stylesheet" href="../node_modules/@knight-lab/timelinejs/dist/css/timeline.css">
+    <script src="../node_modules/@knight-lab/timelinejs/dist/js/timeline-min.js"></script>
+    <!-- <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script> -->
+    <title>Chronokey -Not another Timeline Presenter-</title>
+</head>
+<body>
+    <div class="container-fluid pt-3">
+      <button id="openmenu" class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        Menu
+      </button>
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h4 class="offcanvas-title" id="offcanvasExampleLabel">Literatura con Paloma</h4>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <p align="center"><small><em>Paloma te enseña, Paloma entretiene y te lo tendrás que aprender para la semana que viene...</em></small></p>
+            <p>Recuerda que se trata de una colección de videos amenos para ayudarte a ubicarte en la historia, haciendo hincapié en la Literatura especialmente. 
+                <br> En ningún caso se trata de material didáctico de referencia en la materia.
+                <br> <strong>Necesitas conexión a internet para poder reproducir los videos embebidos en la línea de tiempo </strong>
+            </p> 
+          </div>
+          <div id="botonera" class="d-grip gap-2 d-md-flex justify-content-md-center">
+              <button id="editevent" type="button" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Editar Eventos</button>
+              <button id="newevent" type="button" class="btn btn-secondary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Crear Eventos</button>
+          </div>
+          <p class="text-center text-info mt-4 lh-1">No te preocupes por el orden de los eventos, el programa se encarga de ordenarlos por el Año del Evento</p>
+          <p class="text-center text-warning mt-4 lh-1">El número de Eventos no debería superar los 20. Puede repercutir en el rendimiento de la Aplicación</p>
+          <div class="d-flex align-items-end mt-4">
+              <em>Hecho con cariño por <a href="https://auladeplas.es" target="">M@kersCLM</a>, 2021</em>
+          </div>
+        </div>
+      </div>
+
+        <div id="cuerpo" class="row mt-2 me-3">
+            <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+        </div>
+    </div>
+
+    <footer class="">
+        
+    </footer>
+    <script src="scp.js"></script>
+    
+</body>
+</html>
