@@ -1,5 +1,5 @@
 ChronoKey is not another timeline presenter.
-It´s made with [electron] (https://www.electronjs.org "electronjs home"), [TimeLineJS] (http://timeline.knightlab.com "knight lab home") and [Bootstrap 5] (https://getbootstrap.com "Bootstrap 5 home").
+It´s made with [electron](https://www.electronjs.org "electronjs home"), [TimeLineJS](http://timeline.knightlab.com "knight lab home") and [Bootstrap 5](https://getbootstrap.com "Bootstrap 5 home").
 
 It needs a lot of improvements but it´s usable right now
 
@@ -13,4 +13,4 @@ Steps
 * for building chronokey distributable: `npm run make`
 
 
-More info about config. distributables on [ElectronForge] (https://www.electronforge.io "electron forge home")
+More info about config. distributables on [ElectronForge](https://www.electronforge.io "electron forge home")
